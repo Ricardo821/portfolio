@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #1e293b;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.projects,
+.skills,
+.contact {
+  padding: 40px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
